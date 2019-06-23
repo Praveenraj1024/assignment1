@@ -1,3 +1,8 @@
+/* 
+    Fixed logo with transparent background,
+    and floated towards left.
+ */
+
 #main-header {
     background: transparent;
     width: 45%;
@@ -7,6 +12,10 @@
     float: left;
 }
 
+/* 
+    Making the navigation bar vertically,transparent,
+    fixed, and floated towards right.
+*/
 
 #fixed-nav ul{
     list-style: none;
@@ -32,6 +41,9 @@
     text-decoration: none;
 }
 
+/* 
+    To change lower case to uppercase.
+*/
 .cap {
     text-transform: uppercase;
 }
@@ -43,27 +55,24 @@
     height: 600px;
 }
 
+/* 
+    placing the signup block at the bottom right corner of the 
+    basic main container.
+*/
+
 #signup-con {
     width: 350px;
     height: 500px;
-    background: red;
     position: absolute;
     right: 50px;
     bottom: 30px;
     float: right;
-    font: 30px;
-}
-
-#signup-con {
     font-family: Raleway, sans-serif;
     font-size: 25px;
     line-height: 45px;
-    text-size-adjust: 100%;
-    margin: 0%;
-    padding: 0%;
-    margin-top: 0%;
     background-color: rgba(0, 0, 0, 0.5)
 }
+
 
 #signup-con p{
     font-family: 'Courier New', Courier, monospace;
@@ -71,7 +80,6 @@
     letter-spacing: -2px;
     padding: 10px 30px;
     line-height: 0px;
-    color: rgb(238, 238, 238);
     color: rgb(139, 138, 138);
 }
 #signup-con h2{
@@ -89,6 +97,7 @@
     padding: 10px 0px;
     box-sizing: border-box;
     border-radius: 4px;
+    border: none;
 }
 
 #signup-con input:first-of-type {
@@ -99,11 +108,20 @@
 #signup-con button {
     background-color: rgb(227, 53, 69);
 }
+
+#signup-con input::placeholder {
+    font-size: 18px;
+    padding: 8px 15px;
+}
 hr {
     color: rgb(199, 176, 143);
     margin: 30px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+/* 
+    Placing some info at the bottom of basic main container
+*/
 
 .bottom-info {
     width: 100%;
