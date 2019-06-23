@@ -1,0 +1,136 @@
+#main-header {
+    background: transparent;
+    width: 45%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    float: left;
+}
+
+
+#fixed-nav ul{
+    list-style: none;
+    width: 55%;
+    height: 90px;
+    background: transparent;
+    padding: 25px 20px;
+    float: right;
+    position: fixed;
+    right: 0px;  
+}
+
+#fixed-nav ul li{
+    display: inline;
+    margin: 20px 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fixed-nav ul li a{
+    color: rgb(240, 227, 204);
+    text-decoration: none;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.top-container {
+    background-image: url("../img/landing2.jpg");
+    background-position: -350px -150px;
+    position: relative;
+    height: 600px;
+}
+
+#signup-con {
+    width: 350px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    float: right;
+    font: 30px;
+}
+
+#signup-con {
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+    text-size-adjust: 100%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#signup-con p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: -2px;
+    padding: 10px 30px;
+    line-height: 0px;
+    color: rgb(238, 238, 238);
+    color: rgb(139, 138, 138);
+}
+#signup-con h2{
+    line-height: 0px;
+    font-size: 30px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#signup-con input, #signup-con button{
+    width: 80%;
+    margin: 10px 10%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#signup-con input:first-of-type {
+    margin: 0px 10% 10px;
+    color: aliceblue
+}
+
+#signup-con button {
+    background-color: rgb(227, 53, 69);
+}
+hr {
+    color: rgb(199, 176, 143);
+    margin: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bottom-info {
+    width: 100%;
+    background: rgb(51, 51, 51);
+    position: relative;
+    top: -100px;
+    height: 150px;
+    color: aliceblue;
+}
+
+.bottom-info h2, .bottom-info p{
+    position: absolute;
+    left: 75px;
+}
+
+.bottom-info h2{
+    top: 15px;
+    font-size: 30px;
+    font-weight: bold; 
+    margin: 10px 0px;
+    color: #fff;
+}
+
+.bottom-info p{
+    top: 45px;
+    letter-spacing: 1px;
+    color: #ccc;
+    padding: 20px 0px;
+    font-family: sans-serif;
+}
