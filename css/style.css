@@ -5,7 +5,7 @@
 
 #main-header {
     background: rgb(51, 51, 51);
-    width: 43%;
+    width: 40%;
     height: 70px;
     margin: auto;
     position: fixed;
@@ -20,7 +20,7 @@
 
 #fixed-nav{
     height: 70px;
-    width: 57%;
+    width: 60%;
     background: rgb(51, 51, 51);
 
     position: fixed;
@@ -352,6 +352,48 @@ hr {
     margin-left: 30px;
     margin-bottom: -40px;
 }
+
+
+
+
+
+#buy {
+    text-align: center;
+    height: 200px;
+    background: rgb(240, 240, 243);
+}
+
+#buy h1{
+    padding-top: 30px;
+    color: rgb(51, 51, 51);
+}
+
+#buy p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(119, 119, 119);
+}
+
+#buy button{
+    width: 300px;
+    height: 40px;
+    font-weight: bolder;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+
+}
+
+#buy .free-trail{
+    background: rgb(80, 131, 131);
+    margin-right: 40px;
+}
+
+#buy .subscription{
+    background-color: rgb(227, 53, 69);
+
+}
+
 
 .main-footer div a {
     height: 150px;
