@@ -418,7 +418,7 @@ hr {
     float: left;
     text-decoration: none;
     color: rgb(119, 119, 119);
-    margin-bottom: 0px;
+    margin-bottom: -100px;
 }
 
 .media-link a{
