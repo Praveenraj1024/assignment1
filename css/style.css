@@ -395,8 +395,9 @@ hr {
 }
 
 
+
 .main-footer div a {
-    height: 150px;
+    height: 90px;
 }
 
 .main-footer{
@@ -418,12 +419,14 @@ hr {
     float: left;
     text-decoration: none;
     color: rgb(119, 119, 119);
-    margin-bottom: -100px;
+    margin-bottom: 0px;
 }
 
 .media-link a{
-    margin-left: 40px;
-    padding-top: 60px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+    position: relative;
     color: rgb(119, 119, 119);
-    float: left;
+    float: left; 
 }
