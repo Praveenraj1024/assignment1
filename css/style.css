@@ -344,7 +344,7 @@ hr {
     color: rgb(153, 153, 153);
     font-family: serif;
     font-style: italic;
-    quotes: """ """;
+    quotes: '"' '"';
     
 }
 
