@@ -23,11 +23,7 @@ body {
 .container_16 {
   margin-left: auto;
   margin-right: auto;
-<<<<<<< HEAD
   width: 960px;
-=======
-  width: 100%;
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
 }
 
 /* Grid >> Global
@@ -105,11 +101,7 @@ body {
 }
 
 .container_16 .grid_5 {
-<<<<<<< HEAD
   width: 280px;
-=======
-  width: 350px;
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
 }
 
 .container_16 .grid_6 {
@@ -153,11 +145,7 @@ body {
 }
 
 .container_16 .grid_16 {
-<<<<<<< HEAD
   width: 960px;
-=======
-  width: 100%;
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
 }
 
 /* Prefix Extra Space >> 16 Columns

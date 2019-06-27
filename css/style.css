@@ -1,127 +1,15 @@
 /* 
-    Fixed logo with transparent background,
-    and floated towards left.
- */
-
-#main-header {
-    background: rgb(51, 51, 51);
-    width: 40%;
-    height: 80px;
-    margin: auto;
-    position: fixed;
-    float: left;
-}
-
-/* 
-    Making the navigation bar vertically,transparent,
-    fixed, and floated towards right.
+    NavBar
 */
-
-
-#fixed-nav{
-    height: 80px;
-    width: 60%;
-    background: rgb(51, 51, 51);
-
-    position: fixed;
-    right: 0px;  
+#navigation img{
+    width: 30%;
+    background: rgb(7, 138, 138);
 }
 
-#fixed-nav ul{
-    list-style: none;
-    height: 60px;
-    padding: 0px 20px;
-    float: right; 
-}
-
-#fixed-nav ul li{
-    display: inline;
-    margin: 20px 15px 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#fixed-nav ul li a{
-    color: rgb(240, 227, 204);
-    text-decoration: none;
-}
-
-/* 
-    To change lower case to uppercase.
-*/
-.cap {
-    text-transform: uppercase;
-}
-
-.top-container {
-    background-image: url("../img/landing2.jpg");
-    background-position: -350px -150px;
-    position: relative;
-    height: 600px;
-}
-
-/* 
-    placing the signup block at the bottom right corner of the 
-    basic main container.
-*/
-
-#signup-con {
-    width: 350px;
-    height: 500px;
-    position: absolute;
-    right: 50px;
-    bottom: 30px;
-    float: right;
-    font-family: Raleway, sans-serif;
-    font-size: 25px;
-    line-height: 45px;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-
-#signup-con p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    letter-spacing: -2px;
-    padding: 10px 30px;
-    line-height: 0px;
-    color: rgb(139, 138, 138);
-}
-#signup-con h2{
-    line-height: 0px;
-    font-size: 30px;
-    padding: 10px 30px;
-    box-sizing: border-box;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-#signup-con input, #signup-con button{
-    width: 80%;
-    margin: 10px 10%;
-    padding: 10px 0px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    border: none;
-}
-
-#signup-con input:first-of-type {
-    margin: 0px 10% 10px;
-    color: aliceblue
-}
-
-#signup-con button {
-    background-color: rgb(227, 53, 69);
-}
-
-#signup-con input::placeholder {
-    font-size: 18px;
-    padding: 8px 15px;
-}
 hr {
     color: rgb(199, 176, 143);
     margin: 30px;
+    position: relative;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -129,310 +17,62 @@ hr {
     Placing some info at the bottom of basic main container
 */
 
-.bottom-info {
-    width: 100%;
-    background: rgb(51, 51, 51);
+
+
+.features{
+    display: block;
     position: relative;
-    top: -100px;
-    height: 150px;
-    color: aliceblue;
-    clear: both;
-    margin-bottom: -100px;
-}
-
-.bottom-info h2, .bottom-info p{
-    position: absolute;
-    left: 75px;
-}
-
-.bottom-info h2{
-    top: 15px;
-    font-size: 30px;
-    font-weight: bold; 
-    margin: 10px 0px;
-    color: #fff;
-}
-
-.bottom-info p{
-    top: 45px;
-    letter-spacing: 1px;
-    color: #ccc;
-    padding: 20px 0px;
-    font-family: sans-serif;
-}
-
-#main-container{
-    background: yellow;
-    margin-bottom: 0px;
-    overflow: hidden;
-    padding: 0px;
-    bottom: -200px;
-}
-
-.fe-header {
-    width: 100%;
-    height: 150px;
-    letter-spacing: 1px;
-    font-size: 14px;
-    color: rgb(51, 51, 51); 
-    font-weight: bolder;
-    text-align: center;
-}
-
-.fe-header h1{
-    margin-top: 60px;
-    margin-bottom: -20px;
-}
-
-.fe-header span{
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: rgb(119, 119, 119);
-    font-weight: 100;
-    line-height: 100px;
-
-}
-
-.fe-header hr{
-    width: 40px;
     margin: auto;
-    padding-top: 2px;
-    background: black;
-    
-}
-
-.sections{
-    width: 100%;
-    margin-left: 0px;
-    margin: 0px;
+    font-family: 'Aubrey'
 }
 
 
-.sections img{
+.features .sections figure{
+    height: 100%;
     float: left;
-    width: 60px;
-    height: 60px; 
+    width: 30%;
 }
 
-.sections div{
-    height: 200px;
-    float: left;
-    margin-right: 20px;
-}
-.sections header, .sections article{
-    line-height: 30px;
+.features .sections figure img{
+    height: 30%;
+    width: 70%;
 }
 
-.fe{
-    
-    margin: 0px 50px 50px 30px;
+.feature-article{
+    float: none;
+
 }
  
 
 
-.sections header {
-    color: rgb(51, 51, 51);
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 1px;
+.testimonial figure{
+    height: 100%;
+    float: left;
 }
 
-.sections article {
-    font-size: 14px;
-    line-height: 25px;
-    color: rgb(153, 153, 153);
-    
+.testimonial article, .testimonial .test-footer{
+    float: none;
 }
 
-.sections {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: -40px;
+.testimonial .test-footer{
+    font-family: 'Almendra'
+}
+.testimonial {
+    font-family: 'Pompiere';
 }
 
 
 
-
-
-
-
-
-.test-header {
+#mymodal {
+    height: 100%;
     width: 100%;
-    height: 150px;
-    letter-spacing: 1px;
-    font-size: 14px;
-    color: rgb(51, 51, 51); 
-    font-weight: bolder;
-    text-align: center;
 }
 
-.test-header h1{
-    margin-top: 60px;
-    margin-bottom: -20px;
-}
-
-.test-header span{
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: rgb(119, 119, 119);
-    font-weight: 100;
-    line-height: 100px;
-
-}
-
-.test-header hr{
-    width: 40px;
-    margin: auto;
-    padding-top: 2px;
-    background: black;
-    
-}
-
-.section1{
-    width: 100%;
-    margin-left: 0px;
-    margin: 0px;
-}
-
-
-.section1 img{
-    float: left;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px; 
-}
-
-.section1 div{
-    height: 200px;
-    float: left;
-    margin-right: 20px;
-}
-.section1 header, .section1 article{
-    line-height: 30px;
-}
-
-.test{
-    
-    margin: 0px 50px 50px 30px;
-}
- 
-
-.test-footer h1 {
-    color: rgb(51, 51, 51);
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.test-footer h4{
-    color: rgb(51, 51, 51);
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.test-footer pre {
-    font-size: 12px;
-    color: rgb(153, 153, 153);
-
-}
-
-.section1 article {
-    font-size: 14px;
-    line-height: 25px;
-    color: rgb(153, 153, 153);
-    font-family: serif;
-    font-style: italic;
-    quotes: '"' '"';
-    
-}
-
-
-.section1 {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: -40px;
+.footer{
+    background: rgb(7, 138, 138);
+    color: antiquewhite;
 }
 
 
 
 
-
-#buy {
-    text-align: center;
-    height: 200px;
-    background: rgb(240, 240, 243);
-}
-
-#buy h2{
-    padding-top: 30px;
-    color: rgb(51, 51, 51);
-}
-
-#buy p{
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: rgb(119, 119, 119);
-}
-
-#buy button{
-    width: 300px;
-    height: 40px;
-    font-weight: bolder;
-    color: white;
-    border-style: none;
-    border-radius: 4px;
-
-}
-
-#buy .free-trail{
-    background: rgb(80, 131, 131);
-    margin-right: 40px;
-}
-
-#buy .subscription{
-    background-color: rgb(227, 53, 69);
-
-}
-
-
-
-.main-footer div a {
-    height: 90px;
-}
-
-.main-footer{
-    font-size: 20px;
-    color: rgb(119, 119, 119);
-    height: 150px;
-    background: rgba(36, 37, 37, 0.959);
-}
-
-.main-footer p {
-    margin-left: 40px;
-    padding-top: 40px;
-    float: left;
-}
-
-.main-footer span a{
-    margin-left: 40px;
-    padding-top: 60px;
-    float: left;
-    text-decoration: none;
-    color: rgb(119, 119, 119);
-    margin-bottom: 0px;
-}
-
-.media-link a{
-    height: 20px;
-    margin-left: 50px;
-    margin-top: 60px;
-    position: relative;
-    color: rgb(119, 119, 119);
-    float: left; 
-}
-
-h4{
-    margin: 0px;
-}
