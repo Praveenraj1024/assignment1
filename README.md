@@ -17,6 +17,7 @@ A footer. With social links and site links. (These need not be functional) - use
 Also it must use the 960 framework for the “grid”
 A section which contains 2 vertical columns. divide the column on the right into 3 rows.
 Furthermore,
+<<<<<<< HEAD
 __
 Make use of a google font for displaying text__
 Fixed header with page scroll beneath the header__
@@ -65,3 +66,11 @@ Favicons, Glyphicon, Google fonts__
 Tabbed pane__
 Modal__
 Additional elements (ex: Google map)__
+=======
+
+Make use of a google font for displaying text
+Fixed header with page scroll beneath the header
+The code must be indented and you must include proper comments etc.
+Name the files/ folder structure appropriately
+Maximum use of Semantic Elements instead of normal container elements
+>>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
