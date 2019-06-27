@@ -1,17 +1,4 @@
 /* 
-<<<<<<< HEAD
-    NavBar
-*/
-#navigation img{
-    width: 30%;
-    background: rgb(7, 138, 138);
-}
-
-hr {
-    color: rgb(199, 176, 143);
-    margin: 30px;
-    position: relative;
-=======
     Fixed logo with transparent background,
     and floated towards left.
  */
@@ -135,7 +122,6 @@ hr {
 hr {
     color: rgb(199, 176, 143);
     margin: 30px;
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -143,32 +129,6 @@ hr {
     Placing some info at the bottom of basic main container
 */
 
-<<<<<<< HEAD
-
-
-.features{
-    display: block;
-    position: relative;
-    margin: auto;
-    font-family: 'Aubrey'
-}
-
-
-.features .sections figure{
-    height: 100%;
-    float: left;
-    width: 30%;
-}
-
-.features .sections figure img{
-    height: 30%;
-    width: 70%;
-}
-
-.feature-article{
-    float: none;
-
-=======
 .bottom-info {
     width: 100%;
     background: rgb(51, 51, 51);
@@ -266,44 +226,10 @@ hr {
 .fe{
     
     margin: 0px 50px 50px 30px;
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
 }
  
 
 
-<<<<<<< HEAD
-.testimonial figure{
-    height: 100%;
-    float: left;
-}
-
-.testimonial article, .testimonial .test-footer{
-    float: none;
-}
-
-.testimonial .test-footer{
-    font-family: 'Almendra'
-}
-.testimonial {
-    font-family: 'Pompiere';
-}
-
-
-
-#mymodal {
-    height: 100%;
-    width: 100%;
-}
-
-.footer{
-    background: rgb(7, 138, 138);
-    color: antiquewhite;
-}
-
-
-
-
-=======
 .sections header {
     color: rgb(51, 51, 51);
     font-size: 17px;
@@ -510,4 +436,3 @@ hr {
 h4{
     margin: 0px;
 }
->>>>>>> 8051002c744f7c02e6c367af901455870d8c8d1a
