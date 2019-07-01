@@ -45,19 +45,19 @@ hr {
  
 
 
-.testimonial figure{
+.details figure{
     height: 100%;
     float: left;
 }
 
-.testimonial article, .testimonial .test-footer{
+.details article, .details .test-footer{
     float: none;
 }
 
-.testimonial .test-footer{
+.details .test-footer{
     font-family: 'Almendra'
 }
-.testimonial {
+.details {
     font-family: 'Pompiere';
 }
 
