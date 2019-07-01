@@ -6,6 +6,7 @@
     background: rgb(7, 138, 138);
 }
 
+
 hr {
     color: rgb(199, 176, 143);
     margin: 30px;
@@ -19,29 +20,8 @@ hr {
 
 
 
-.features{
-    display: block;
-    position: relative;
-    margin: auto;
-    font-family: 'Aubrey'
-}
 
 
-.features .sections figure{
-    height: 100%;
-    float: left;
-    width: 30%;
-}
-
-.features .sections figure img{
-    height: 30%;
-    width: 70%;
-}
-
-.feature-article{
-    float: none;
-
-}
  
 
 
@@ -69,9 +49,15 @@ hr {
 }
 
 .footer{
+    margin: 0%;
     background: rgb(7, 138, 138);
     color: antiquewhite;
 }
+/* 
+#carouselImage {
+    width: 90%;
+    height: auto;
+} */
 
 
 
