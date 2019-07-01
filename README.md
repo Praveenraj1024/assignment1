@@ -17,6 +17,9 @@ A footer. With social links and site links. (These need not be functional) - use
 Also it must use the 960 framework for the “grid”
 A section which contains 2 vertical columns. divide the column on the right into 3 rows.
 Furthermore,
+  
+&nbsp;
+&nbsp;
 __
 Make use of a google font for displaying text__
 Fixed header with page scroll beneath the header__
